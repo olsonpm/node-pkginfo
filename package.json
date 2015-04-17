@@ -6,16 +6,25 @@
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/indexzero/node-pkginfo.git" 
+    "url": "http://github.com/indexzero/node-pkginfo.git"
   },
   "bugs": {
-    "url": "https://github.com/indexzero/node-pkginfo/issues" 
+    "url": "https://github.com/indexzero/node-pkginfo/issues"
   },
-  "keywords": ["info", "tools", "package.json"],
+  "keywords": [
+    "info",
+    "tools",
+    "package.json"
+  ],
   "devDependencies": {
     "vows": "0.7.x"
   },
   "main": "./lib/pkginfo",
-  "scripts": { "test": "vows test/*-test.js --spec" },
-  "engines": { "node": ">= 0.4.0" }
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "browser": "./lib/empty-for-browser.js"
 }
